@@ -46,7 +46,7 @@ management:
 
 ---
 spring:
-  profiles: mysql
+  profiles: cloud
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
